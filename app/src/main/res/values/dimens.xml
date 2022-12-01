@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="login_component_height">@dimen/_40sdp</dimen>
+    <dimen name="login_component_start_margin">@dimen/_16sdp</dimen>
+    <dimen name="login_component_end_margin">@dimen/_16sdp</dimen>
+    <dimen name="screen_start_margin">@dimen/_15sdp</dimen>
+    <dimen name="screen_end_margin">@dimen/_15sdp</dimen>
+    <dimen name="corner_radius_2dp">@dimen/_2sdp</dimen>
+    <dimen name="corner_radius_4dp">@dimen/_4sdp</dimen>
+    <dimen name="corner_radius_6dp">@dimen/_6sdp</dimen>
+    <dimen name="corner_radius_12dp">@dimen/_12sdp</dimen>
+    <dimen name="corner_radius_20dp">@dimen/_20sdp</dimen>
+    <dimen name="navigation_start_margin">@dimen/_25sdp</dimen>
+
+    <dimen name="dialog_button_size">@dimen/_10ssp</dimen>
+    <dimen name="dialog_title_size">@dimen/_14ssp</dimen>
+    <dimen name="dialog_description_size">@dimen/_12ssp</dimen>
+    <dimen name="dialog_corner_radius">@dimen/_20sdp</dimen>
+</resources>

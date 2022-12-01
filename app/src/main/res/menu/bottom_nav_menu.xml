@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_bottom_navigation_home"
+        android:enabled="true"
+        android:title=""/>
+
+    <item
+        android:id="@+id/userManagementFragment"
+        android:icon="@drawable/ic_bottom_navigation_profile"
+        android:title=""/>
+
+    <item
+        android:id="@+id/blank"
+        android:title=""/>
+
+    <item
+        android:id="@+id/controlModeFragment"
+        android:icon="@drawable/ic_bottom_navigation_settings"
+        android:title=""/>
+
+    <item
+        android:id="@+id/contactUsFragment"
+        android:icon="@drawable/ic_bottom_navigation_call"
+        android:title=""/>
+
+</menu>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "506586813601",
+    "project_id": "voni-voice-assistance",
+    "storage_bucket": "voni-voice-assistance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506586813601:android:0ad1de4532aa238d3c4ce0",
+        "android_client_info": {
+          "package_name": "com.voinismartiot.voni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506586813601-n5c8ak549n8mebcfei65601imv7qshpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNlyO6gGiAJrB7twQgFo_rvU5CtEHn_h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506586813601-n5c8ak549n8mebcfei65601imv7qshpd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "506586813601-vvjq8mu7ekp57jcpsjm5rjcg40thbppj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.voinismartiot.voni"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

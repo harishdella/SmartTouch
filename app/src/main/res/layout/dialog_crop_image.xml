@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    tools:ignore="contentDescription">
+
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/BackImageStyle"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <com.canhub.cropper.CropImageView
+        android:id="@+id/crop_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_save"
+        android:layout_below="@+id/relative_top"
+        app:cropAspectRatioX="16"
+        app:cropAspectRatioY="10"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        app:cropFixAspectRatio="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save"
+        style="@style/DodgerBlueButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_component_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/screen_start_margin"
+        android:layout_marginEnd="@dimen/screen_end_margin"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:text="@string/text_save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

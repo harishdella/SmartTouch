@@ -1,0 +1,329 @@
+<resources>
+    <string name="app_name">Voni</string>
+    <string name="org_name"><b>Voni</b> Smart<b>Iot</b></string>
+
+    <!--    Google Authentication client-->
+    <string name="google_client_id">432636988700-m2vtfr8vd9kjaiflhmd9tngdu2bj0pr0.apps.googleusercontent.com</string>
+    <string name="google_client_secret">Q-x9vJg8UGTX-VNma3F7ZKHm</string>
+    <string name="google_client_api_key">AIzaSyCusFbvoi6knNJnuyZ2o_GYKqFj4e2GXJ4</string>
+
+    <!-- FCM notification channel -->
+    <string name="default_notification_channel_id">Basecode</string>
+
+    <string name="facebook_app_id">1351754321872545</string>
+    <string name="fb_login_protocol_scheme">fb1351754321872545</string>
+
+    <string name="welcome"><font fgcolor='#1A8EFF'><b>Welcome to</b></font>\n<font fgcolor='#011B25'><b>Voni</b> Smart<b>Iot</b></font></string>
+
+    <!--    Login     -->
+    <string name="hint_text_email">Email</string>
+    <string name="hint_text_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_remember">Remember</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_facebook">Facebook</string>
+    <string name="text_google">Google</string>
+    <string name="text_do_not_have_account">Don\'t have an account?</string>
+    <string name="text_sign_up">Sign Up</string>
+
+    <!--    Sign up-->
+    <string name="title_text_create_account">Create Account</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_user_name">User Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_already_have_account">Already have an account?</string>
+
+
+    <!--    Error message -->
+    <string name="error_text_full_name">Please enter full name</string>
+    <string name="error_text_full_name_length">FullName must be more than 3 character</string>
+    <string name="error_text_user_name">Please enter user name</string>
+    <string name="error_text_user_name_length">UserName must be more than 3 character</string>
+    <string name="error_text_phone_number">Please enter phone number</string>
+    <string name="error_text_phone_number_min_length">Phone number must be at least six character</string>
+    <string name="error_text_email">Please enter email</string>
+    <string name="error_text_valid_email">Please enter valid email</string>
+    <string name="error_text_password">Please enter password</string>
+    <string name="error_text_current_password">Please enter current password</string>
+    <string name="error_text_password_length">Password is too short. Please enter at least six character</string>
+    <string name="error_text_confirm_password">Password and confirm password does not match</string>
+    <string name="error_text_panel_name">Please enter panel name</string>
+    <string name="error_text_serial_number">Please enter serial number</string>
+    <string name="error_text_name">Please enter name</string>
+    <string name="error_text_name_length">Name must be more than 3 character</string>
+    <string name="error_text_scene_name_empty">Scene name must not be empty</string>
+    <string name="error_text_scene_name_length">Scene name must be more than 3 character</string>
+    <string name="error_text_only_master_user_can_edit">Only master user can edit this settings</string>
+    <string name="error_text_unauthorized">You are not authorized to access this action.</string>
+    <string name="error_something_went_wrong">Something went wrong. Please try again after sometime</string>
+    <string name="error_sleep_mode_empty">Sleep mode value must not be empty</string>
+    <string name="error_sleep_mode_digit_only">Sleep mode value must be digit</string>
+    <string name="error_sleep_mode_limit_reached">You can not enter more than 600 seconds in sleep mode</string>
+    <string name="error_sleep_mode_second">Second must be greater than 5.</string>
+
+    <!--    Forgot Password-->
+    <string name="title_text_forgot_password">Forgot your password?</string>
+    <string name="hint_enter_register_email">Enter your registered email address</string>
+    <string name="text_send">Send</string>
+    <string name="text_remember_password">Remember password?</string>
+
+    <!--    Dialog Strings-->
+    <string name="text_no_internet_available">Internet not available</string>
+    <string name="text_ok">OK</string>
+    <string name="text_close">Close</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="dialog_title_restore_device">Do you really want to restore all connected devices?</string>
+    <string name="dialog_title_profile_reset">Do you really want to erase all saved data from your account?</string>
+    <string name="dialog_title_restart_device">Do you really want to restart this device?</string>
+    <string name="dialog_title_factory_reset">Do you really want to do factory reset for this device?</string>
+    <string name="dialog_title_remove_device">Do you really want to remove this device?</string>
+    <string name="dialog_title_remove_subordinate_user">Are you sure you want to delete this user?</string>
+    <string name="dialog_title_remove_device_image">Do you really want to remove this device image?</string>
+    <string name="dialog_title_delete_scene">Do you really want to delete this scene?</string>
+    <string name="dialog_title_device_offline">Device is offline</string>
+    <string name="dialog_input_type_text">text</string>
+    <string name="dialog_input_type_phone">phone</string>
+    <string name="dialog_title_transfer_ownership">Are you sure you want to transfer ownership?</string>
+    <string name="dialog_title_cancel_ownership">Are you sure you want to cancel ownership?</string>
+    <string name="dialog_title_delete_room">Are you sure you want to delete this room?</string>
+    <string name="dialog_title_logout">Do you really want to logout?</string>
+
+    <!--    Home Screen-->
+    <string name="title_text_home_screen">Dashboard</string>
+    <string name="title_text_add_room">Add Room</string>
+    <string name="hint_text_room_name">Enter your room name</string>
+    <string name="title_text_room_type">Room Type</string>
+    <string name="button_text_add_room">+ Add</string>
+    <string name="shop_url">https://www.vonismart.com/smart-touch.html</string>
+
+    <!--    Side Navigation-->
+    <string name="side_nav_text_account_settings">Account Settings</string>
+    <string name="side_nav_text_restore_device">Restore Devices</string>
+    <string name="side_nav_text_profile_reset">Profile Reset</string>
+    <string name="side_nav_text_faqs">FAQ\'s</string>
+    <string name="side_nav_text_shop">Shop</string>
+    <string name="side_nav_text_contact_us">Contact us</string>
+    <string name="side_nav_text_logout">Logout</string>
+
+    <!--    Device screen -->
+    <string name="text_add_panel">Add Panel</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_customization">Customization</string>
+    <string name="text_features">Features</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_retain_state">Retain State</string>
+    <string name="text_serial_number">Serial Number</string>
+    <string name="text_panel_name">Panel name</string>
+    <string name="hint_text_enter_panel_name">Enter panel name</string>
+    <string name="hint_text_enter_serial_number">Enter serial number</string>
+    <string name="text_device_type">Device Type</string>
+    <string name="text_smart_touch">SmarTouch</string>
+    <string name="text_smart_tack">SmarTack</string>
+    <string name="text_smart_tap">SmarTap</string>
+    <string name="text_outdoor_mode_indication">Outdoor mode is ON</string>
+    <string name="text_select_appliances">Select appliances</string>
+    <string name="error_select_appliances">Please select any appliance</string>
+    <string name="text_15a">15A</string>
+
+    <!--    Switch name-->
+    <string name="text_switch_one">Switch 1</string>
+    <string name="text_switch_two">Switch 2</string>
+    <string name="text_switch_three">Switch 3</string>
+    <string name="text_switch_four">Switch 4</string>
+    <string name="text_switch_five">Switch 5</string>
+    <string name="text_switch_six">Switch 6</string>
+    <string name="text_switch_seven">Switch 7</string>
+    <string name="text_switch_eight">Switch 8</string>
+    <string name="text_switch_15_amp">15 Amp</string>
+    <string name="text_switch_3_pin">3 Pin</string>
+    <string name="text_switch_dimmer">Dimmer</string>
+    <string name="text_switch_fan_speed">Fan Speed</string>
+
+    <string name="text_usb_port_a">USB Port <font fgcolor='#1A8EFF'>A</font></string>
+    <string name="text_usb_port_c">USB Port <font fgcolor='#1A8EFF'>C</font></string>
+
+    <!--    Control Mode-->
+    <string name="dialog_title_pin_control_mode">Do you want to make Control Mode page as Home page for easy Access?</string>
+    <string name="dialog_title_unpin_control_mode">Do you want to remove Control Mode page as Home page?</string>
+    <string name="title_text_control_mode_screen">Control Mode</string>
+
+    <!--    Device Customization-->
+    <string name="title_text_device_customization">Device Customization</string>
+    <string name="text_screen_layout">Screen Layout</string>
+    <string name="text_upload_image">Upload Image</string>
+    <string name="text_switch_icons">Switch Icons</string>
+    <string name="text_switch_icon_size">Switch Icon Size</string>
+    <string name="text_switch_name">Switch Name</string>
+    <string name="text_style">Text Style</string>
+    <string name="text_color">Text Color</string>
+    <string name="text_size">Text Size</string>
+    <string name="button_text_synchronize">Synchronize</string>
+    <string name="button_text_submit">Submit</string>
+    <string name="toast_text_device_synchronized">Device synchronized successful</string>
+    <string name="dialog_title_text_lock">Do you want to lock customization with your account?</string>
+    <string name="dialog_title_text_unlock">Do you want to unlock customization with your account?</string>
+    <string name="text_eight_icons_view">8 Switches</string>
+    <string name="text_six_icons_view">6 Switches</string>
+    <string name="text_four_icons_view">4 Switches</string>
+    <string name="text_left_most">Left Most</string>
+    <string name="text_right_most">Right Most</string>
+    <string name="text_left_right">Left &amp; Right</string>
+    <string name="text_middle_center">Middle Center</string>
+    <string name="text_top_center">Top Center</string>
+    <string name="text_bottom_center">Bottom Center</string>
+    <string name="text_remove">Remove</string>
+    <string name="text_gallery">Gallery</string>
+    <string name="text_photo">Photo</string>
+    <string name="button_text_upload">Upload</string>
+    <string name="text_select_font">Select font</string>
+    <string name="text_save">Save</string>
+    <string name="text_done">Done</string>
+    <string name="text_crop">Crop</string>
+    <string name="description_screen_layout">Few predefined layouts will be available where icons are arranged center, top, bottom, right and left on the screen.</string>
+    <string name="description_upload_image">Image here refers to the user pictures, photos that they like to have on the touch</string>
+    <string name="description_switch_icons">Icon here refers to the Symbols used to turn ON/OFF e.g., Light, Lamp, fan. etc..</string>
+    <string name="description_switch_icons_size">Size of the Icon can be changed with the scale of Small, Medium and Large.</string>
+    <string name="description_switch_name">To enable / disable switch name under icons in touch device.</string>
+    <string name="description_text_style">Text Font can be changed as per user, like Calibri, Times New Roman, Brush Script MT,Cooper Black, and Verdana.</string>
+    <string name="description_text_color">Color of the Icon can be changed with Standard colors like Red, Green, Blue, Black, White, Brown, Yellow, Orange, Purple and Pink.</string>
+    <string name="description_text_size">Size of the Text can be changed with the scale of Small, Medium and Large.</string>
+
+    <!--    Device Features-->
+    <string name="title_text_device_features">Device Features</string>
+    <string name="text_create_scene">Create Scene</string>
+    <string name="text_create">Create</string>
+    <string name="text_sleep_mode">Sleep Mode</string>
+    <string name="text_night_mode">Night Mode</string>
+    <string name="text_outdoor_mode">Outdoor Mode</string>
+    <string name="text_time">Time</string>
+    <string name="text_date">Date</string>
+    <string name="text_time_format">Time Format</string>
+    <string name="text_12_hours">12 Hours</string>
+    <string name="text_24_hours">24 Hours</string>
+    <string name="text_weather_report">Weather Report</string>
+    <string name="text_room_temperature">Room Temperature</string>
+    <string name="text_temperature_unit">Temperature Unit</string>
+    <string name="text_celsius">Celsius</string>
+    <string name="text_fahrenheit">Fahrenheit</string>
+    <string name="text_display_brightness">Display Brightness</string>
+    <string name="text_auto">Auto</string>
+    <string name="text_manual">Manual</string>
+    <string name="description_sleep_mode">Display will turn off when touch is not used for the period specified by the application. Sleep mode value will be consider in second.</string>
+    <string name="description_night_mode">It will blacken the image and OEM logo and make the sole icon glow at bedtime.</string>
+    <string name="description_time_mode">The date and time should be displayed on the touch screen on the bottom left or bottom right along with the day.</string>
+    <string name="description_weather_report">The weather report needs to be displayed on the touch screen at the bottom left or right. It is also necessary to indicate the weather conditions with predefined symbols like cloudy, sunny.</string>
+    <string name="description_room_temperature">Devices need to display room temperature on a screen using a temperature sensor.</string>
+    <string name="description_display_brightness">Change brightness settings of the device</string>
+
+    <!--    Create Scene   -->
+    <string name="title_text_scene">Scene</string>
+    <string name="title_text_create_scene">Create Scene</string>
+    <string name="text_scene_name">Scene Name</string>
+    <string name="text_room_name">Room Name</string>
+    <string name="text_device_name">Device Name</string>
+    <string name="text_status">Status</string>
+    <string name="text_add">Add</string>
+    <string name="text_frequency">Frequency</string>
+    <string name="text_daily">Daily</string>
+    <string name="text_weekly">Weekly</string>
+    <string name="text_no_room">No Room</string>
+    <string name="text_no_device">No Device</string>
+    <string name="text_no_switch">No Switch</string>
+    <string name="text_select_room">Select Room</string>
+    <string name="text_select_device">Select Device</string>
+    <string name="text_select_switch">Select Switch</string>
+    <string name="text_scene_time"><font fgcolor='#1A8EFF'>9:05</font><font fgcolor='#011B25'> am</font></string>
+    <string name="text_days">Days</string>
+    <string name="text_sunday">Sunday</string>
+    <string name="text_monday">Monday</string>
+    <string name="text_tuesday">Tuesday</string>
+    <string name="text_wednesday">Wednesday</string>
+    <string name="text_thursday">Thursday</string>
+    <string name="text_friday">Friday</string>
+    <string name="text_saturday">Saturday</string>
+    <string name="error_text_duplicate_scene">Duplicate switch is not allowed</string>
+    <string name="error_text_empty_switch">Please select switch to create a scene</string>
+    <string name="error_text_empty_weekly_days">Please select at least one day</string>
+
+    <!--    Account Settings   -->
+    <string name="title_text_account_settings">Account Settings</string>
+    <string name="text_name">Name</string>
+    <string name="text_email">Email</string>
+    <string name="text_phone_number">Phone Number</string>
+    <string name="text_password">Password</string>
+    <string name="text_confirm_password">Confirm Password</string>
+    <string name="text_ownership_transfer">Ownership Transfer</string>
+    <string name="text_for_master_users">for master users only</string>
+    <string name="text_update">Update</string>
+    <string name="text_transfer_ownership">Transfer Ownership</string>
+    <string name="text_update_password">Update Password</string>
+    <string name="hint_text_current_password">Current Password</string>
+    <string name="hint_text_new_password">New Password</string>
+    <string name="hint_text_confirm_new_password">Confirm New Password</string>
+    <string name="text_hidden_password">******************</string>
+    <string name="text_info_ownership_transfer">For transfer the ownership to one user to another user. Only Master user can perform this action.</string>
+
+    <!--    Faqs Screen-->
+    <string name="title_text_faqs">FAQ\'s</string>
+    <string name="hint_text_search">Search</string>
+
+    <!--    Contact us Screen -->
+    <string name="title_text_contact_us">Contact Us</string>
+    <string name="text_office_address1">Office Address1</string>
+    <string name="text_office_address2">Office Address2</string>
+    <string name="text_feedback">Feedback</string>
+    <string name="office_address">Voni SmartIot Pvt.Ltd., 4D/10.Third Floor,Vijay Towers, Collector Office Road, Opp.St. JJohn\'s Vestry School, Tiruchirapalli - 620 001</string>
+    <string name="office_address2">Voni /smartiot Pvt Ltd (Bengaluru) 301,2nd Floor,Urban Korner,2nd Main Road, KAsturi NAgar,Bengaluru - 560043</string>
+    <string name="hint_text_comments">Your comments…</string>
+    <string name="button_text_send">Send</string>
+    <string name="text_contact_us_email">support@vonismart.com</string>
+    <string name="text_contact_us_mobile1">9591326826</string>
+    <string name="text_contact_us_mobile2"></string>
+
+    <!--    Switch Icons   -->
+    <string name="title_text_switch_icons">Switch Icons</string>
+
+    <!--    User Management   -->
+    <string name="title_text_user_management">User Management</string>
+    <string name="text_registered_users">Registered Users</string>
+    <string name="title_text_add_user">Add User</string>
+    <string name="hint_text_full_name_ex">Ex. Hermione Ganger</string>
+    <string name="text_email_address">Email Address</string>
+    <string name="text_add_new_user">Add new user</string>
+
+    <!--    Device Settings-->
+    <string name="title_text_device_settings">Device Settings</string>
+    <string name="text_restart">Restart</string>
+    <string name="text_factory_reset">Factory Reset</string>
+    <string name="text_verify_update">Verifying Update</string>
+    <string name="description_restart">Device will be restart</string>
+    <string name="description_factory_reset">This will set default settings to the device</string>
+    <string name="description_remove">To remove device from this account</string>
+    <string name="description_retain_state">If this switch is on in that case if house face power cut and when power supply restores, whichever relay was ON it will be ON and whichever was OFF it will be OFF</string>
+    <string name="description_outdoor_mode">By enabling outdoor mode user can select particular loads which needs to be activated when going out of the home</string>
+
+
+    <string name="title_text_config_wifi">Config Wi-Fi</string>
+    <string name="text_wifi_ssid">WiFi SSID</string>
+    <string name="hint_text_wifi_ssid">Ex. SMT2028189</string>
+    <string name="hint_text_wifi_password">Ex. abcd@12%34*5</string>
+
+    <string name="str_gateway_name">Teksun</string>
+    <string name="str_gateway_password">12345678</string>
+    <string name="below_given_default_gateway_wifi_ssid_and_password">Below given default gateway wifi SSID and password</string>
+    <string name="text_wifi_instruction">1. Click on OK button and redirect to wifi settings\n2. Select gateway default wifi SSID and enter password and connect \n3. And go back to the application</string>
+    <string name="text_wifi_instruction_10">1. Click on OK button and redirect to wifi settings\n2. Select gateway default wifi SSID and enter password and connect \n3. And click on Done button</string>
+    <string name="text_ssid">SSID</string>
+
+    <string name="text_registering">Registering…</string>
+    <string name="text_configuring">Configuring…</string>
+    <string name="text_connecting">Connecting…</string>
+    <string name="text_connected">Connected</string>
+    <string name="text_connection_failed">Connection Failed</string>
+    <string name="receiver_port">8881</string>
+    <string name="message_wait_for_internet">Please wait for internet connection and once you connected with internet then press OK</string>
+
+</resources>

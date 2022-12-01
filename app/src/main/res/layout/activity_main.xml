@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_sliding_up_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:gravity="bottom"
+    app:umanoDragView="@id/drag_add_room"
+    app:umanoOverlay="true"
+    app:umanoPanelHeight="0dp"
+    tools:context="com.voinismartiot.voni.ui.activities.MainActivity"
+    tools:ignore="contentDescription">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:clickable="true">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/main_fragment_container"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toTopOf="@+id/linear_bottom_navigation_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navGraph="@navigation/nav_main" />
+
+        <LinearLayout
+            android:id="@+id/linear_bottom_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/_18sdp"
+                android:src="@drawable/ic_bottom_navigation_home" />
+
+            <ImageView
+                android:id="@+id/iv_user"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/_18sdp"
+                android:src="@drawable/ic_bottom_navigation_profile" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/iv_control_mode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/_18sdp"
+                android:src="@drawable/ic_bottom_navigation_settings" />
+
+            <ImageView
+                android:id="@+id/iv_scene"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/_18sdp"
+                android:src="@drawable/ic_bottom_navigation_scene" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_add_room"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_bottom_navigation_add_room"
+            app:layout_constraintBottom_toTopOf="@+id/linear_bottom_navigation_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linear_bottom_navigation_view" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:id="@+id/drag_add_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:top_left_corner_radius="@dimen/corner_radius_20dp"
+        app:top_right_corner_radius="@dimen/corner_radius_20dp">
+
+        <include
+            android:id="@+id/layout_add_room"
+            layout="@layout/layout_add_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:background="@color/white"
+    android:padding="@dimen/_12sdp"
+    app:top_left_corner_radius="@dimen/corner_radius_4dp"
+    app:top_right_corner_radius="@dimen/corner_radius_4dp"
+    tools:ignore="contentDescription">
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="@dimen/_12sdp"
+        android:layout_height="@dimen/_12sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_arrow_down"
+        app:tint="@color/daintree" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/iv_arrow"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/theme_color"
+        android:textSize="@dimen/_13ssp" />
+
+</com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
